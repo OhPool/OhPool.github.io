@@ -1,0 +1,81 @@
+@font-face { 
+    src: url(NS.ttf);
+    font-family: NotoSans;
+}
+
+:root {
+  background: #202b38;
+}
+
+html, body {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left:  10px;
+  background-color: --background ;
+  font-family: NotoSans;
+  color: #dbdbdb;
+  text-rendering: optimizeSpeed;
+  text-align: center;
+}
+
+h0 {
+  font-size: 40px;
+  font-weight: 1000;
+}
+
+h1
+{
+  font-size: 32px; 
+  font-weight: 1000;
+}
+
+h2
+{
+  font-size: 30px; 
+  font-weight: 1000;
+}
+
+h3
+{
+  font-size: 28px; 
+  font-weight: 1000;
+}
+
+h4
+{
+  font-size: 26px; 
+  font-weight: 1000;
+}
+
+h5
+{
+  font-size: 24px; 
+  font-weight: 1000;
+}
+
+h6
+{
+  font-size: 22px; 
+  font-weight: 1000;
+}
+
+
+button {
+  margin-right: 6px;
+  margin-bottom: 6px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  color: #dbdbdb;
+  background-color: #0c151c;
+  text-rendering: optimizeSpeed;
+}
+
+a {
+  
+  text-decoration: none;
+  color: #41adff;
+}
